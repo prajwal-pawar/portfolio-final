@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Linkedin, GitHub, Mail, Twitter } from "react-feather";
+import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi";
+import { TbBrandGmail } from "react-icons/tb";
 import "../styles/header.css";
 
 const Header = () => {
@@ -34,10 +35,10 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          animate={{ opacity: 1, scale: 1, transition: { delay: 1 } }}
           transition={{ delay: 1, duration: 0.5 }}
         >
-          <Linkedin size={30} />
+          <FiLinkedin size={30} />
         </motion.a>
 
         <motion.a
@@ -48,7 +49,7 @@ const Header = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.2, duration: 0.5 }}
         >
-          <GitHub size={30} />
+          <FiGithub size={30} />
         </motion.a>
 
         <motion.a
@@ -59,7 +60,7 @@ const Header = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.4, duration: 0.5 }}
         >
-          <Twitter size={30} />
+          <FiTwitter size={30} />
         </motion.a>
 
         <motion.a
@@ -70,7 +71,7 @@ const Header = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.6, duration: 0.5 }}
         >
-          <Mail size={30} />
+          <TbBrandGmail size={30} />
         </motion.a>
       </div>
     </motion.header>
