@@ -3,13 +3,13 @@
   padding: 50px 0;
 }
 
-h1 {
+.name {
   font-size: 3rem;
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
 
-p {
+.title {
   font-size: 1.5rem;
   color: var(--secondary-text-color);
 }

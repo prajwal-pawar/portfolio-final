@@ -11,13 +11,16 @@ const Header = () => {
       transition={{ duration: 1 }}
     >
       <motion.h1
+        className="name"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
       >
         Prajwal Pawar
       </motion.h1>
+
       <motion.p
+        className="title"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, type: "spring", stiffness: 80 }}
