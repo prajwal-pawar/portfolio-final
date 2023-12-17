@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--primary-text-color);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0px 10px;
+  color: var(--secondary-accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: var(--primary-accent-color);
+}
