@@ -6,12 +6,18 @@
   font-size: 2rem;
   color: var(--primary-text-color);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .about-info {
   font-size: 1.2rem;
   color: var(--secondary-text-color);
   margin-bottom: 30px;
+}
+
+.info-highlights {
+  color: var(--secondary-accent-color);
+  font-weight: bolder;
 }
 
 .skills-container {
@@ -22,6 +28,7 @@
   font-size: 2rem;
   color: var(--primary-text-color);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .skills-list {
