@@ -27,7 +27,7 @@
 .skills-title {
   font-size: 2rem;
   color: var(--primary-text-color);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
-  color: var(--secondary-text-color);
+  color: var(--primary-accent-color);
   margin-bottom: 20px;
   margin-right: 20px;
   cursor: pointer;
