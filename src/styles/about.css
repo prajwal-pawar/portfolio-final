@@ -48,7 +48,6 @@
   margin-bottom: 20px;
   margin-right: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out;
 }
 
 .skill-label {

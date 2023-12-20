@@ -34,9 +34,12 @@ const Header = () => {
           href="https://google.com"
           target="_blank"
           rel="noopener noreferrer"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1, transition: { delay: 1 } }}
-          transition={{ delay: 1, duration: 0.5 }}
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          // transition={{ delay: 1, duration: 0.5 }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.3 }}
         >
           <FiLinkedin size={30} />
         </motion.a>
@@ -45,9 +48,12 @@ const Header = () => {
           href=""
           target="_blank"
           rel="noopener noreferrer"
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.2, duration: 0.5 }}
+          // transition={{ delay: 1.2, duration: 0.5 }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.3 }}
         >
           <FiGithub size={30} />
         </motion.a>
@@ -56,9 +62,12 @@ const Header = () => {
           href=""
           target="_blank"
           rel="noopener noreferrer"
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.4, duration: 0.5 }}
+          // transition={{ delay: 1.4, duration: 0.5 }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.3 }}
         >
           <FiTwitter size={30} />
         </motion.a>
@@ -67,9 +76,12 @@ const Header = () => {
           href=""
           target="_blank"
           rel="noopener noreferrer"
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.6, duration: 0.5 }}
+          // transition={{ delay: 1.6, duration: 0.5 }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.3 }}
         >
           <TbBrandGmail size={30} />
         </motion.a>

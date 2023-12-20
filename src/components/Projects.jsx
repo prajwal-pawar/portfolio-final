@@ -18,6 +18,7 @@ const Projects = () => {
             key={index}
             className="project"
             whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
           >
             <h3 className="project-title">{project.title}</h3>
             <p className="project-desc">{project.description}</p>

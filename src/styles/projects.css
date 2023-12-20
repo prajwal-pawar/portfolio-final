@@ -21,12 +21,7 @@
   padding: 20px;
   border: 1px solid var(--secondary-text-color);
   border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
   cursor: pointer;
-}
-
-.project:hover {
-  transform: scale(1.05);
 }
 
 .project-title {

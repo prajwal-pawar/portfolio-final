@@ -24,7 +24,6 @@
   margin: 0px 10px;
   color: var(--secondary-accent-color);
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
 }
 
 .social-icons a:hover {

@@ -36,6 +36,7 @@ const About = () => {
               className="skill"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
+              transition={{ duration: 0.3 }}
             >
               {/* render icons from skills data */}
               <skill.icon size={30} />
