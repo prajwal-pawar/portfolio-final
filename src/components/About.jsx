@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { skills } from "../data/skills";
 import "../styles/about.css";
 
 const About = () => {
@@ -21,30 +20,6 @@ const About = () => {
         exploring new technologies, or enjoying a good cup of coffee while
         diving into a coding challenge. Let's create something amazing together!
       </p>
-
-      <motion.div
-        className="skills-container"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-      >
-        <h3 className="skills-title">Skills</h3>
-        <ul className="skills-list">
-          {skills.map((skill, index) => (
-            <motion.li
-              key={index}
-              className="skill"
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.8 }}
-              transition={{ duration: 0.3 }}
-            >
-              {/* render icons from skills data */}
-              <skill.icon size={30} />
-              <span className="skill-label">{skill.label}</span>
-            </motion.li>
-          ))}
-        </ul>
-      </motion.div>
     </motion.div>
   );
 };
