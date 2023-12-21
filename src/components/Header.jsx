@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi";
-import { TbBrandGmail } from "react-icons/tb";
+import { FiLinkedin, FiGithub, FiTwitter, FiMail } from "react-icons/fi";
 import "../styles/header.css";
 
 const Header = () => {
@@ -31,7 +30,7 @@ const Header = () => {
 
       <div className="social-icons">
         <motion.a
-          href="https://google.com"
+          href="https://www.linkedin.com/in/prajwal-pawar-477a81226"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0 }}
@@ -45,7 +44,7 @@ const Header = () => {
         </motion.a>
 
         <motion.a
-          href=""
+          href="https://github.com/prajwal-pawar"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0 }}
@@ -59,7 +58,7 @@ const Header = () => {
         </motion.a>
 
         <motion.a
-          href=""
+          href="https://twitter.com/prajwalpawar_"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0 }}
@@ -73,7 +72,7 @@ const Header = () => {
         </motion.a>
 
         <motion.a
-          href=""
+          href="mailto:prajwalpawar2303@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0 }}
@@ -83,7 +82,7 @@ const Header = () => {
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.3 }}
         >
-          <TbBrandGmail size={30} />
+          <FiMail size={30} />
         </motion.a>
       </div>
     </motion.header>
