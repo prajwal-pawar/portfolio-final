@@ -6,7 +6,8 @@ const About = () => {
     <motion.div
       className="about-container"
       initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
+      // animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
       <h2 className="about-title">About Me</h2>

@@ -7,14 +7,16 @@ const Skills = () => {
     <motion.div
       className="skills-container"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      // animate={{ opacity: 1 }}
+      whileInView={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}
     >
       <h3 className="skills-title">Skills</h3>
       <motion.ul
         className="skills-section"
         initial={{ opacity: 0, x: -30 }}
-        animate={{ opacity: 1, x: 0 }}
+        // animate={{ opacity: 1, x: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
         <div>
@@ -40,7 +42,8 @@ const Skills = () => {
       <motion.ul
         className="skills-section"
         initial={{ opacity: 0, x: 30 }}
-        animate={{ opacity: 1, x: 0 }}
+        // animate={{ opacity: 1, x: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
         <div>
@@ -66,7 +69,8 @@ const Skills = () => {
       <motion.ul
         className="skills-section"
         initial={{ opacity: 0, x: -30 }}
-        animate={{ opacity: 1, x: 0 }}
+        // animate={{ opacity: 1, x: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
         <div>
